@@ -1,13 +1,13 @@
 #include <iostream>
 #include <vector>
 
-void funkcja(std::vector<int>& T, int& n)
+void funkcja(std::vector<int>& T, int n)
 {
 	std::vector<int> copyT = T;// Kopia oryginalnej tablicy
 
 	for (int i = 0; i < n; i++)
 	{
-		int ll = 0; //Licznik liczb le¿¹cych na lewo od rozpatrywanej
+		int ll = 0; //Licznik liczb leÂ¿Â¹cych na lewo od rozpatrywanej
 		for (int j = 0; j < i; j++)
 		{
 			if (copyT[j] > copyT[i])
